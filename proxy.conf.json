@@ -1,0 +1,15 @@
+{
+    "/user/*": {
+      "target": "http://localhost:8080/eatngreet/",
+      "secure": false,
+      "logLevel": "debug",
+      "changeOrigin": true
+    },
+    "/booking/*": {
+      "target": "http://localhost:8081/eatngreet/",
+      "secure": false,
+      "logLevel": "debug",
+      "changeOrigin": true
+    }
+  }
+  
